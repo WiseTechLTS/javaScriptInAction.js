@@ -55,7 +55,14 @@
 //    console.log('JavaScript is cool!');
 //}
 
-for (let i = 0; i < 11; i++){
-    generatedNumber= i 
-    console.log(generatedNumber)
+//for (let i = 0; i < 11; i++){
+//    generatedNumber= i
+//    console.log(generatedNumber)
+////}
+
+for (let i = 0; i < 5; i++){
+    let nameOne = "hello"
+    let nameTwo = "goodbye"
+    console.log(nameOne)
+    console.log(nameTwo);
 }
