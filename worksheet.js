@@ -60,9 +60,17 @@
 //    console.log(generatedNumber)
 ////}
 
-for (let i = 0; i < 5; i++){
-    let nameOne = "hello"
-    let nameTwo = "goodbye"
-    console.log(nameOne)
-    console.log(nameTwo);
+//for (let i = 0; i < 5; i++){
+//    let nameOne = "hello"
+//    let nameTwo = "goodbye"
+//    console.log(nameOne)
+//    console.log(nameTwo);
+//}
+isInstructorAwesome = 5
+isInstructorAwesome = true 
+
+while (isInstructorAwesome) {
+    isInstructorAwesome = false
+    //logic goes here
+    console.log(isInstructorAwesome)
 }
