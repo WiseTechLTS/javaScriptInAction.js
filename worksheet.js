@@ -16,7 +16,7 @@
 ///
 ///
 ///Create variable named timeOfDay with value = 1300
-let timeOfDay = 1700
+let timeOfDay = (1700, array)
 // Create another variable, self named. This variable will hold the value
 // of one of the meals you have previously chosen. 
 let choices = ['Eggs', 'Sandwich', 'Steak']
@@ -28,10 +28,8 @@ else if (timeOfDay >= 1700) {
     
     choice = 'Steak'
 }
-
 else if (timeOfDay > 1200 <= 1700) {
 
     choice = 'Sandwich'
 }
-
 console.log(choice)
