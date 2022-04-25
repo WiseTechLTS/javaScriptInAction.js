@@ -50,6 +50,7 @@ randomNumber = Math.floor(Math.random() * 11)
     }
 
 //}
-for (let i = 0; i < 5; i++){
-    //logic goes here
+
+for (let i = 1; i < 8; i++){
+    console.log('JavaScript is cool!');
 }
