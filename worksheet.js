@@ -1,22 +1,22 @@
-//let dayOfWeek = "Monday";
-//console.log(dayOfWeek)
+let dayOfWeek = "Monday";
+console.log(dayOfWeek)
 
-//dayOfWeek = 'Friday'
-//console.log("I can't wait for " + dayOfWeek + "!")
+dayOfWeek = 'Friday'
+console.log("I can't wait for " + dayOfWeek + "!")
 
 ////Create variable named animalInput
-//let animalInput = prompt("What is your favorite animal?")
+let animalInput = prompt("What is your favorite animal?")
 
 ////Create variable named colorInput
-//let colorInput = prompt('What is your favorite color?')
+let colorInput = prompt('What is your favorite color?')
 
 //Combine these two variables within a string so you can print the phrase
 //"Ive never seen a <color><animal>!"
-//console.log("I've never seen a " + colorInput + animalInput + "!")
+console.log("I've never seen a " + colorInput + animalInput + "!")
 ///
 ///
 ///Create variable named timeOfDay with value = 1300
-let timeOfDay = (1700, array)
+let timeOfDay = (1700) //array)
 // Create another variable, self named. This variable will hold the value
 // of one of the meals you have previously chosen. 
 let choices = ['Eggs', 'Sandwich', 'Steak']
@@ -33,3 +33,8 @@ else if (timeOfDay > 1200 <= 1700) {
     choice = 'Sandwich'
 }
 console.log(choice)
+
+randomNumber = Math.floor(Math.random() * 11);
+console.log(randomNumber)
+
+
