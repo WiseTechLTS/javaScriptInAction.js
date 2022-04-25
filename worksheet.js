@@ -34,7 +34,22 @@ else if (timeOfDay > 1200 <= 1700) {
 }
 console.log(choice)
 
-randomNumber = Math.floor(Math.random() * 11);
-console.log(randomNumber)
+randomNumber = Math.floor(Math.random() * 11)
+//while (randomNumber != 10) {
+    if (randomNumber >= 0 <= 2) {
+        console.log('Beatles')
+    }
+    else if (randomNumber >= 3 <= 5) {
+        console.log('Stones')
+    }
+    else if (randomNumber >= 6 <= 8) {
+        console.log('Floyd')
+    }
+    else if (randomNumber >= 9 <= 10) {
+        console.log('Hendrix')
+    }
 
-
+//}
+for (let i = 0; i < 5; i++){
+    //logic goes here
+}
