@@ -66,11 +66,17 @@
 //    console.log(nameOne)
 //    console.log(nameTwo);
 //}
-isInstructorAwesome = 5
-isInstructorAwesome = true 
+//isInstructorAwesome = 5
+//isInstructorAwesome = true
 
-while (isInstructorAwesome) {
-    isInstructorAwesome = false
-    //logic goes here
-    console.log(isInstructorAwesome)
+//while (isInstructorAwesome) {
+//    isInstructorAwesome = false
+//    //logic goes here
+//    console.log(isInstructorAwesome)
+//}
+
+function printMovieName() {
+    favoriteMovie = 'Point Break'
+    console.log(favoriteMovie)
 }
+printMovieName()
