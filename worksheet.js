@@ -109,23 +109,22 @@ if (randomNumber == r) {
     }
     else {
         //console.log(randomNumber)
-    }
+   }
+// Loops
 
- // Loops
- 
- // In JavaScript, loops are an important tool that allow developers to execute a block of code over and over as long as a condition holds true. This worksheet will allow you to practice a for loop and while loop.
- 
- // For Loop
- 
- // A for loop is ideal in a situation where you know exactly how many times you want the loop to run. 
- 
- // A for loop consists of three parts:
- 
- // -	Start – initial value for the iterator 
- 
- // o	i.e. let i = 0;
- 
-// -Condition – the condition that exists to determine when the loop should continue iterating (as long as condition is true) and when the loop should complete (when the condition becomes false)
+// In JavaScript, loops are an important tool that allow developers to execute a block of code over and over as long as a condition holds true. This worksheet will allow you to practice a for loop and while loop.
+
+// For Loop
+
+// A for loop is ideal in a situation where you know exactly how many times you want the loop to run.
+
+// A for loop consists of three parts:
+
+// -	Start – initial value for the iterator
+
+// o	i.e. let i = 0;
+
+/// -Condition – the condition that exists to determine when the loop should continue iterating (as long as condition is true) and when the loop should complete (when the condition becomes false)
 
 // o	i.e. i < 5;
 
@@ -138,11 +137,16 @@ if (randomNumber == r) {
 // The above line of code creates a scope where any included code would be repeated 5 times. Additionally, the variable i that is created will increment from 0 to 4 with each loop.
 
 // 1.	Write your own for loop that will display the message “JavaScript is cool!” 7 times.
-
-// a.	Expected Output:               
+for (let i = 0; i < 7; i++){
+    //logic goes here
+    console.log("JavaScript is cool!")
+}
+// a.	Expected Output:               7x"JavaScript is cool!"
 
 // 2.	Write your own for loop that will display the numbers 0-10, one number per loop. You will need to utilize a variable for this!
-
+for (let i = 0; i <= 10; i ++){
+    console.log(i)
+}
 // 3.	Write a for loop that will print the following sequence:
 
 
